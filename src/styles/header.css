@@ -1,0 +1,29 @@
+nav {
+    background-color: black;
+    min-height: 200px;
+    max-height:200px;
+}
+
+header > nav > a > picture > img {
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    min-height: 105px;
+    min-width: 105px;
+}
+.navbar{
+    z-index: 2;
+}
+.nav-link{
+    font-size: 18px;
+    font-weight: 400;
+}
+.nav-link:hover {
+    color: rgb(255, 145, 255)!important;
+}
+.active {
+    color: rgba(255, 16, 255, 1)!important;
+}
+
+
+  
+  

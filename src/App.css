@@ -1,0 +1,199 @@
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+body {
+    font-family: 'EB Garamond', serif !important;
+    overflow-x: hidden;
+    background-color: black !important;
+    color: white !important;
+   
+}
+
+h1 {
+    text-indent: -9000000000px;
+    overflow: hidden;
+}
+
+
+
+#inicio {
+    padding-top: 5rem;
+}
+
+
+#inicio > div > div  {
+  font-size: 30px !important; 
+  color: white;
+}
+
+  .fade-in-text1 {
+    animation: fadeIn 5s;
+  }
+
+  .fade-in-text2 {
+    animation: fadeIn 10s;
+  }
+
+
+  .fade-in-text3 {
+    animation: fadeIn 12s;
+  }
+  
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+
+  #boton {
+    background-color: white !important;
+    width: 10rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    border-radius: 0 !important;
+    border: 0 !important;
+  }
+
+  input {
+    background-color: black !important;
+    border-radius: 0 !important;
+  }
+  
+textarea {
+  background-color: black !important;
+  border-radius: 0 !important;
+}
+.sectionContainer{
+  height: calc(100% - 20px);
+  overflow: hidden;
+}
+#art1 {
+  position: absolute;
+  left: 0;
+  top: 12rem;
+  height: 100%;
+  z-index:0;
+}
+.titulo{
+  position: relative;
+  z-index: 1;
+}
+.tituloProjects{
+  z-index: 1;
+  margin-top: 25rem;
+}
+/**
+Aca estan los cambios, te quiero muuuucho
+*/
+
+html, body {
+  height: 100%;
+  font-size: 18px;
+}
+
+#wrapper {
+  min-height: 100%;
+  margin-bottom: -50px; /* Igual al alto del footer */
+  
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+footer {
+    font-family: 'EB Garamond', serif;
+    color: white;
+    background-color: rgba(27, 0, 51, 1);
+    
+}
+#footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+main > article > section > div.col-sm-12.col-md-6 {
+  padding-top: 25rem !important;
+  padding-left: 2rem;
+  padding-right: 2rem;
+ }
+
+ body > article > section > div.col-sm-12.col-md-6 {
+  padding-top: 10rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+ }
+
+
+ #galeriagrande {
+  position: relative;
+  display: block;
+ }
+
+/*Scrollbar para Google Chrome y Safari*/
+::-webkit-scrollbar {
+  display: none;
+  
+}
+
+#galeriachica {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+
+}
+#galeriachica > h2 {
+  padding-bottom: 3rem;
+
+}
+
+@media (max-width: 599px) {
+  #galeriagrande {
+    
+    display: none;
+  }
+ #galeriachica {
+  display: block;
+ }
+}
+#fondo {
+  background-image: url(C:\\Users\\User\\Desktop\\part1\\public\\imagenes\\videofondo\\Maskgroup.png);
+}
+
+@media (min-width: 600px) {
+    h2 {
+        font-size: 50px  !important;
+    }
+    #galeriagrande {
+      display: block;
+      padding-bottom: 6rem;
+     }
+     #galeriagrande  > h2 {
+      padding-top: 10rem;
+      padding-bottom: 5rem;
+     }
+     #galeriachica {
+      display: none;
+     }
+  }
+
+  @media (min-width: 900px) {
+    h2 {
+        font-size: 90px  !important;
+    }
+    #fondo > h2 {
+    font-size: 40px !important;
+    }
+    main > article > section > div.col-sm-12.col-md-6 {
+      padding-top: 25rem;
+     }
+     body > article > section > div.col-sm-12.col-md-6 {
+      padding-top: 30rem;
+     }
+
+     
+  }  
+
+
+
+

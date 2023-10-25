@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cardo&display=swap');
+
+.firstArticle {
+  height: 100vh;
+}
+.degrad img {
+  width: 100%;
+  height: 100%;
+
+  transform: scale(105%);
+}
+
+.videoLife {
+  width: 100%;
+  height: 30rem;
+}
+
+.titleSigh {
+  font-family: 'Cardo', serif;  font-size: 80px;
+  font-weight: 100;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.subTitleSigh {
+  font-family: 'Montserrat';
+  font-weight: 400;
+  line-height: 49px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.text {
+    font-family: Garamond;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;    
+}
+
+.imagesBottom{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
